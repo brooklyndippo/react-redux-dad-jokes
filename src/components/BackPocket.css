@@ -1,0 +1,23 @@
+.joke-card {
+    margin: 0.5em 0;
+    padding: 0.8em;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.913);
+    width: 80%
+  }
+
+.the-pocket {
+    margin: auto;
+    margin-bottom: 7vh;
+    width: 40vw;
+    height: 60vh;
+    background-image: url('https://previews.123rf.com/images/donatas1205/donatas12051111/donatas1205111100023/11143272-worn-blue-denim-jeans-pocket.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 40px;
+    padding: 2em;
+    overflow: auto;
+    display: grid;
+    grid: 180px / auto auto;
+    grid-auto-rows: min-content;
+}
